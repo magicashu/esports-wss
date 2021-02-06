@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+	<title>Admin Dashboard</title>
 
 	<!-- Global stylesheets -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
@@ -408,7 +408,7 @@
 												<i class="icon-plus3"></i>
 											</a>
 											<div>
-												<div class="font-weight-semibold">New visitors</div>
+												<div class="font-weight-semibold">New players</div>
 												<span class="text-muted">2,349 avg</span>
 											</div>
 										</div>
@@ -421,8 +421,8 @@
 												<i class="icon-watch2"></i>
 											</a>
 											<div>
-												<div class="font-weight-semibold">New sessions</div>
-												<span class="text-muted">08:20 avg</span>
+												<div class="font-weight-semibold">New tournaments</div>
+												<span class="text-muted">5 available today</span>
 											</div>
 										</div>
 										<div class="w-75 mx-auto mb-3" id="new-sessions"></div>
@@ -439,6 +439,18 @@
 											</div>
 										</div>
 										<div class="w-75 mx-auto mb-3" id="total-online"></div>
+									</div>
+									<div class="col-sm-4">
+										<div class="d-flex align-items-center justify-content-center mb-2">
+											<a href="#" class="btn bg-transparent border-teal text-teal rounded-round border-2 btn-icon mr-3">
+												<i class="icon-plus3"></i>
+											</a>
+											<div>
+												<div class="font-weight-semibold">Add new tournaments</div>
+												<span class="text-muted"></span>
+											</div>
+										</div>
+										<div class="w-75 mx-auto mb-3" id="new-visitors"></div>
 									</div>
 								</div>
 							</div>
