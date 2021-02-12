@@ -34,29 +34,20 @@
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav justify-content-center">
 							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-							<li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
-							<li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a>
+							<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+							<li class="nav-item"><a class="nav-link" href="#upcoming">Upcoming Tournaments</a>
 							<li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 								 aria-expanded="false">Pages</a>
 								<ul class="dropdown-menu">
 									<li class="nav-item"><a class="nav-link" href="price.html">Pricing</a>
 									<li class="nav-item"><a class="nav-link" href="games.html">Games</a>
-									<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a>
+								
 								</ul>
 							</li>
-							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Blog</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-									<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-								</ul>
-							</li>
-							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
-							<li class="nav-item"><a href="#" class="primary_btn">join us</a></li>
+							<li class="nav-item"><a href="https://www.weswitched.studio/" class="primary_btn">join us</a></li>
 						</ul>
 					</div>
 				</div>
@@ -79,11 +70,10 @@
 							<h2>
 								Your one and
 								<br>only stop <br>
-								to catch the latest esport action
+								to catch the latest E-tournaments in action
 							</h2>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore
-								magna aliqua. Ut enim ad minim.
+							Catch diffrent popular games in Live action. 
 							</p>
 							<div class="d-flex align-items-center">
 								<a id="play-home-video" class="video-play-button" href="https://www.youtube.com/">
@@ -102,9 +92,9 @@
 	<!--================End Home Banner Area =================-->
 
 	<!--================Start About Us Area =================-->
-	<section class="about_us_area section_gap_top">
+	<section class="about_us_area section_gap_top" >
 		<div class="container">
-			<div class="row about_content align-items-center">
+			<div class="row about_content align-items-center" id="about">
 				<div class="col-lg-6">
 					<div class="section_content">
 						<h6>About Us</h6>
@@ -129,12 +119,12 @@
 	
 	<!--================First Upcoming Games Area =================-->
 	<section class="upcoming_games_area">
-		<div class="container">
+		<div class="container" id="upcoming">
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="main_title">
-						<h2>Upcoming Games</h2>
-						<h1>Upcoming Games</h1>
+						<h2>Upcoming Tournaments</h2>
+						<h1>Upcoming Tournaments</h1>
 					</div>
 				</div>
 			</div>
@@ -143,7 +133,7 @@
 					<div class="new_games_item">
 						<img src="img/b_map1.png" alt="">
 						<div class="upcoming_title">
-							<h3><a href="games.html">Best Ps4 Games</a></h3>
+							<h3><a href="games.html">Valorant</a></h3>
 						</div>
 					</div>
 				</div>
@@ -151,7 +141,7 @@
 					<div class="new_games_item">
 						<img src="img/b_map2.png" alt="">
 						<div class="upcoming_title">
-							<h3><a href="games.html">World Dart 2019</a></h3>
+							<h3><a href="games.html">PUBG</a></h3>
 						</div>
 					</div>
 				</div>
@@ -159,7 +149,7 @@
 					<div class="new_games_item">
 						<img src="img/b_map3.png" alt="">
 						<div class="upcoming_title">
-							<h3><a href="games.html">New XBox Games</a></h3>
+							<h3><a href="games.html">FIFA</a></h3>
 						</div>
 					</div>
 				</div>
@@ -167,7 +157,7 @@
 					<div class="new_games_item">
 						<img src="img/b_map4.png" alt="">
 						<div class="upcoming_title">
-							<h3><a href="games.html">Amarican Football</a></h3>
+							<h3><a href="games.html">Call of Duty</a></h3>
 						</div>
 					</div>
 				</div>
@@ -185,21 +175,337 @@
 						<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
 							Live Streaming
 						</a>
+						<div class="table100 ver6 m-b-110">
+					<table data-vertable="ver6">
+						<thead>
+							<tr class="row100 head">
+								<th class="column100 column1" data-column="column1"></th>
+								<th class="column100 column2" data-column="column2">Sunday</th>
+								<th class="column100 column3" data-column="column3">Monday</th>
+								<th class="column100 column4" data-column="column4">Tuesday</th>
+								<th class="column100 column5" data-column="column5">Wednesday</th>
+								<th class="column100 column6" data-column="column6">Thursday</th>
+								<th class="column100 column7" data-column="column7">Friday</th>
+								<th class="column100 column8" data-column="column8">Saturday</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Ashutosh Scott</td>
+								<td class="column100 column2" data-column="column2">8:00 AM</td>
+								<td class="column100 column3" data-column="column3">--</td>
+								<td class="column100 column4" data-column="column4">--</td>
+								<td class="column100 column5" data-column="column5">8:00 AM</td>
+								<td class="column100 column6" data-column="column6">--</td>
+								<td class="column100 column7" data-column="column7">5:00 PM</td>
+								<td class="column100 column8" data-column="column8">8:00 AM</td>
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Jane Medina</td>
+								<td class="column100 column2" data-column="column2">--</td>
+								<td class="column100 column3" data-column="column3">5:00 PM</td>
+								<td class="column100 column4" data-column="column4">5:00 PM</td>
+								<td class="column100 column5" data-column="column5">--</td>
+								<td class="column100 column6" data-column="column6">9:00 AM</td>
+								<td class="column100 column7" data-column="column7">--</td>
+								<td class="column100 column8" data-column="column8">--</td>
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Billy Mitchell</td>
+								<td class="column100 column2" data-column="column2">9:00 AM</td>
+								<td class="column100 column3" data-column="column3">--</td>
+								<td class="column100 column4" data-column="column4">--</td>
+								<td class="column100 column5" data-column="column5">--</td>
+								<td class="column100 column6" data-column="column6">--</td>
+								<td class="column100 column7" data-column="column7">2:00 PM</td>
+								<td class="column100 column8" data-column="column8">8:00 AM</td>
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Beverly Reid</td>
+								<td class="column100 column2" data-column="column2">--</td>
+								<td class="column100 column3" data-column="column3">5:00 PM</td>
+								<td class="column100 column4" data-column="column4">5:00 PM</td>
+								<td class="column100 column5" data-column="column5">--</td>
+								<td class="column100 column6" data-column="column6">9:00 AM</td>
+								<td class="column100 column7" data-column="column7">--</td>
+								<td class="column100 column8" data-column="column8">--</td>
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Tiffany Wade</td>
+								<td class="column100 column2" data-column="column2">8:00 AM</td>
+								<td class="column100 column3" data-column="column3">--</td>
+								<td class="column100 column4" data-column="column4">--</td>
+								<td class="column100 column5" data-column="column5">8:00 AM</td>
+								<td class="column100 column6" data-column="column6">--</td>
+								<td class="column100 column7" data-column="column7">5:00 PM</td>
+								<td class="column100 column8" data-column="column8">8:00 AM</td>
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Sean Adams</td>
+								<td class="column100 column2" data-column="column2">--</td>
+								<td class="column100 column3" data-column="column3">5:00 PM</td>
+								<td class="column100 column4" data-column="column4">5:00 PM</td>
+								<td class="column100 column5" data-column="column5">--</td>
+								<td class="column100 column6" data-column="column6">9:00 AM</td>
+								<td class="column100 column7" data-column="column7">--</td>
+								<td class="column100 column8" data-column="column8">--</td>
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Rachel Simpson</td>
+								<td class="column100 column2" data-column="column2">9:00 AM</td>
+								<td class="column100 column3" data-column="column3">--</td>
+								<td class="column100 column4" data-column="column4">--</td>
+								<td class="column100 column5" data-column="column5">--</td>
+								<td class="column100 column6" data-column="column6">--</td>
+								<td class="column100 column7" data-column="column7">2:00 PM</td>
+								<td class="column100 column8" data-column="column8">8:00 AM</td>
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Mark Salazar</td>
+								<td class="column100 column2" data-column="column2">8:00 AM</td>
+								<td class="column100 column3" data-column="column3">--</td>
+								<td class="column100 column4" data-column="column4">--</td>
+								<td class="column100 column5" data-column="column5">8:00 AM</td>
+								<td class="column100 column6" data-column="column6">--</td>
+								<td class="column100 column7" data-column="column7">5:00 PM</td>
+								<td class="column100 column8" data-column="column8">8:00 AM</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
 						 aria-selected="false">
-							Upcoming Challanges
+							Upcoming Tournaments
 						</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
 						 aria-selected="false">
-							Recent Famous Games
+							Recent Tournaments
 						</a>
+						
+						<div class="lol"  id="contact">
+					<table data-vertable="ver6">
+						<thead>
+							<tr class="row100 head">
+								<th class="column100 column1" data-column="column1"></th>
+								<th class="column100 column2" data-column="column2">Sunday</th>
+								<th class="column100 column3" data-column="column3">Monday</th>
+								<th class="column100 column4" data-column="column4">Tuesday</th>
+								<th class="column100 column5" data-column="column5">Wednesday</th>
+								<th class="column100 column6" data-column="column6">Thursday</th>
+								<th class="column100 column7" data-column="column7">Friday</th>
+								<th class="column100 column8" data-column="column8">Saturday</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Ashutosh Scott</td>
+								<td class="column100 column2" data-column="column2">8:00 AM</td>
+								<td class="column100 column3" data-column="column3">--</td>
+								<td class="column100 column4" data-column="column4">--</td>
+								<td class="column100 column5" data-column="column5">8:00 AM</td>
+								<td class="column100 column6" data-column="column6">--</td>
+								<td class="column100 column7" data-column="column7">5:00 PM</td>
+								<td class="column100 column8" data-column="column8">8:00 AM</td>
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Jane Medina</td>
+								<td class="column100 column2" data-column="column2">--</td>
+								<td class="column100 column3" data-column="column3">5:00 PM</td>
+								<td class="column100 column4" data-column="column4">5:00 PM</td>
+								<td class="column100 column5" data-column="column5">--</td>
+								<td class="column100 column6" data-column="column6">9:00 AM</td>
+								<td class="column100 column7" data-column="column7">--</td>
+								<td class="column100 column8" data-column="column8">--</td>
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Billy Mitchell</td>
+								<td class="column100 column2" data-column="column2">9:00 AM</td>
+								<td class="column100 column3" data-column="column3">--</td>
+								<td class="column100 column4" data-column="column4">--</td>
+								<td class="column100 column5" data-column="column5">--</td>
+								<td class="column100 column6" data-column="column6">--</td>
+								<td class="column100 column7" data-column="column7">2:00 PM</td>
+								<td class="column100 column8" data-column="column8">8:00 AM</td>
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Beverly Reid</td>
+								<td class="column100 column2" data-column="column2">--</td>
+								<td class="column100 column3" data-column="column3">5:00 PM</td>
+								<td class="column100 column4" data-column="column4">5:00 PM</td>
+								<td class="column100 column5" data-column="column5">--</td>
+								<td class="column100 column6" data-column="column6">9:00 AM</td>
+								<td class="column100 column7" data-column="column7">--</td>
+								<td class="column100 column8" data-column="column8">--</td>
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Tiffany Wade</td>
+								<td class="column100 column2" data-column="column2">8:00 AM</td>
+								<td class="column100 column3" data-column="column3">--</td>
+								<td class="column100 column4" data-column="column4">--</td>
+								<td class="column100 column5" data-column="column5">8:00 AM</td>
+								<td class="column100 column6" data-column="column6">--</td>
+								<td class="column100 column7" data-column="column7">5:00 PM</td>
+								<td class="column100 column8" data-column="column8">8:00 AM</td>
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Sean Adams</td>
+								<td class="column100 column2" data-column="column2">--</td>
+								<td class="column100 column3" data-column="column3">5:00 PM</td>
+								<td class="column100 column4" data-column="column4">5:00 PM</td>
+								<td class="column100 column5" data-column="column5">--</td>
+								<td class="column100 column6" data-column="column6">9:00 AM</td>
+								<td class="column100 column7" data-column="column7">--</td>
+								<td class="column100 column8" data-column="column8">--</td>
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Rachel Simpson</td>
+								<td class="column100 column2" data-column="column2">9:00 AM</td>
+								<td class="column100 column3" data-column="column3">--</td>
+								<td class="column100 column4" data-column="column4">--</td>
+								<td class="column100 column5" data-column="column5">--</td>
+								<td class="column100 column6" data-column="column6">--</td>
+								<td class="column100 column7" data-column="column7">2:00 PM</td>
+								<td class="column100 column8" data-column="column8">8:00 AM</td>
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Mark Salazar</td>
+								<td class="column100 column2" data-column="column2">8:00 AM</td>
+								<td class="column100 column3" data-column="column3">--</td>
+								<td class="column100 column4" data-column="column4">--</td>
+								<td class="column100 column5" data-column="column5">8:00 AM</td>
+								<td class="column100 column6" data-column="column6">--</td>
+								<td class="column100 column7" data-column="column7">5:00 PM</td>
+								<td class="column100 column8" data-column="column8">8:00 AM</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 					</li>
 				</ul>
-				<div class="tab-content" id="myTabContent">
+				<!-- <div class="table100 ver6 m-b-110">
+					<table data-vertable="ver6">
+						<thead>
+							<tr class="row100 head">
+								<th class="column100 column1" data-column="column1"></th>
+								<th class="column100 column2" data-column="column2">Sunday</th>
+								<th class="column100 column3" data-column="column3">Monday</th>
+								<th class="column100 column4" data-column="column4">Tuesday</th>
+								<th class="column100 column5" data-column="column5">Wednesday</th>
+								<th class="column100 column6" data-column="column6">Thursday</th>
+								<th class="column100 column7" data-column="column7">Friday</th>
+								<th class="column100 column8" data-column="column8">Saturday</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Ashutosh Scott</td>
+								<td class="column100 column2" data-column="column2">8:00 AM</td>
+								<td class="column100 column3" data-column="column3">--</td>
+								<td class="column100 column4" data-column="column4">--</td>
+								<td class="column100 column5" data-column="column5">8:00 AM</td>
+								<td class="column100 column6" data-column="column6">--</td>
+								<td class="column100 column7" data-column="column7">5:00 PM</td>
+								<td class="column100 column8" data-column="column8">8:00 AM</td>
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Jane Medina</td>
+								<td class="column100 column2" data-column="column2">--</td>
+								<td class="column100 column3" data-column="column3">5:00 PM</td>
+								<td class="column100 column4" data-column="column4">5:00 PM</td>
+								<td class="column100 column5" data-column="column5">--</td>
+								<td class="column100 column6" data-column="column6">9:00 AM</td>
+								<td class="column100 column7" data-column="column7">--</td>
+								<td class="column100 column8" data-column="column8">--</td>
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Billy Mitchell</td>
+								<td class="column100 column2" data-column="column2">9:00 AM</td>
+								<td class="column100 column3" data-column="column3">--</td>
+								<td class="column100 column4" data-column="column4">--</td>
+								<td class="column100 column5" data-column="column5">--</td>
+								<td class="column100 column6" data-column="column6">--</td>
+								<td class="column100 column7" data-column="column7">2:00 PM</td>
+								<td class="column100 column8" data-column="column8">8:00 AM</td>
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Beverly Reid</td>
+								<td class="column100 column2" data-column="column2">--</td>
+								<td class="column100 column3" data-column="column3">5:00 PM</td>
+								<td class="column100 column4" data-column="column4">5:00 PM</td>
+								<td class="column100 column5" data-column="column5">--</td>
+								<td class="column100 column6" data-column="column6">9:00 AM</td>
+								<td class="column100 column7" data-column="column7">--</td>
+								<td class="column100 column8" data-column="column8">--</td>
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Tiffany Wade</td>
+								<td class="column100 column2" data-column="column2">8:00 AM</td>
+								<td class="column100 column3" data-column="column3">--</td>
+								<td class="column100 column4" data-column="column4">--</td>
+								<td class="column100 column5" data-column="column5">8:00 AM</td>
+								<td class="column100 column6" data-column="column6">--</td>
+								<td class="column100 column7" data-column="column7">5:00 PM</td>
+								<td class="column100 column8" data-column="column8">8:00 AM</td>
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Sean Adams</td>
+								<td class="column100 column2" data-column="column2">--</td>
+								<td class="column100 column3" data-column="column3">5:00 PM</td>
+								<td class="column100 column4" data-column="column4">5:00 PM</td>
+								<td class="column100 column5" data-column="column5">--</td>
+								<td class="column100 column6" data-column="column6">9:00 AM</td>
+								<td class="column100 column7" data-column="column7">--</td>
+								<td class="column100 column8" data-column="column8">--</td>
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Rachel Simpson</td>
+								<td class="column100 column2" data-column="column2">9:00 AM</td>
+								<td class="column100 column3" data-column="column3">--</td>
+								<td class="column100 column4" data-column="column4">--</td>
+								<td class="column100 column5" data-column="column5">--</td>
+								<td class="column100 column6" data-column="column6">--</td>
+								<td class="column100 column7" data-column="column7">2:00 PM</td>
+								<td class="column100 column8" data-column="column8">8:00 AM</td>
+							</tr>
+
+							<tr class="row100">
+								<td class="column100 column1" data-column="column1">Mark Salazar</td>
+								<td class="column100 column2" data-column="column2">8:00 AM</td>
+								<td class="column100 column3" data-column="column3">--</td>
+								<td class="column100 column4" data-column="column4">--</td>
+								<td class="column100 column5" data-column="column5">8:00 AM</td>
+								<td class="column100 column6" data-column="column6">--</td>
+								<td class="column100 column7" data-column="column7">5:00 PM</td>
+								<td class="column100 column8" data-column="column8">8:00 AM</td>
+							</tr>
+						</tbody>
+					</table>
+				</div> -->
+				<!-- <div class="tab-content" id="myTabContent">
 					<div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
 						<div class="row recent_update_text">
 							<div class="col-lg-6">
@@ -210,9 +516,9 @@
 							<div class="col-lg-6">
 								<div class="section_content">
 									<h6>About Us</h6>
-									<h1>We Believe that <br>Interior beauty Lasts Long</h1>
-									<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
-										especially in the workplace. That’s why it’s crucial that as women.</p>
+									<h1>Show ongoing tournaments list here</h1>
+									<p>Show the leader and the top 3 players below game name & on clicking the ongoing games
+									show the leaderboard and points scored</p>
 									<a class="primary_btn" href="#">Learn More</a>
 								</div>
 							</div>
@@ -228,7 +534,7 @@
 							<div class="col-lg-6">
 								<div class="section_content">
 									<h6>About Us</h6>
-									<h1>We Believe that <br>Interior beauty Lasts Long</h1>
+									<h1>Show the Upcoming tournaments here!</h1>
 									<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
 										especially in the workplace. That’s why it’s crucial that as women.</p>
 									<a class="primary_btn" href="#">Learn More</a>
@@ -246,7 +552,7 @@
 							<div class="col-lg-6">
 								<div class="section_content">
 									<h6>About Us</h6>
-									<h1>We Believe that <br>Interior beauty Lasts Long</h1>
+									<h1>Show recent tournaments name and the leaderboard</h1>
 									<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
 										especially in the workplace. That’s why it’s crucial that as women.</p>
 									<a class="primary_btn" href="#">Learn More</a>
@@ -254,7 +560,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</section>
@@ -326,295 +632,13 @@
 	</section>
 	<!--================ End Gallery Area =================-->
 
-
-	<!--========== Start Testimonials Area ==================-->
-	<section class="testimonials_area section_gap">
-		<div class="container">
-			<div class="testi_slider owl-carousel">
-				<div class="testi_item">
-					<img src="img/quote.png" alt="">
-					<h4>Fanny Spencer</h4>
-					<ul class="list">
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-					</ul>
-					<div class="wow fadeIn" data-wow-duration="1s">
-						<p>
-							As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it,
-							you travel
-							across her face <br> and She is the host to your journey.
-						</p>
-					</div>
-				</div>
-				<div class="testi_item">
-					<img src="img/quote.png" alt="">
-					<h4>Fanny Spencer</h4>
-					<ul class="list">
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-					</ul>
-					<div class="wow fadeIn" data-wow-duration="1s">
-						<p>
-							As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it,
-							you travel
-							across her face <br> and She is the host to your journey.
-						</p>
-					</div>
-				</div>
-				<div class="testi_item">
-					<img src="img/quote.png" alt="">
-					<h4>Fanny Spencer</h4>
-					<ul class="list">
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-						<li><a href="#"><i class="fa fa-star"></i></a></li>
-					</ul>
-					<div class="wow fadeIn" data-wow-duration="1s">
-						<p>
-							As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it,
-							you travel
-							across her face <br> and She is the host to your journey.
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Testimonials Area ================-->
-
-
-	<!--================ Start Frequently Asked Questions Area ================-->
-	<section class="frequently_area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="main_title">
-						<h2>Frequently Asked Questions</h2>
-						<h1>Frequently Asked Questions</h1>
-					</div>
-				</div>
-			</div>
-			<div class="row frequent_inner">
-				<div class="col-lg-5 col-md-5">
-					<div class="frequent_item">
-						<h3>We Believe that Interior beauty Lasts Long</h3>
-						<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
-							especially in the workplace. That’s why it’s crucial that as women.</p>
-					</div>
-				</div>
-				<div class="offset-lg-2 col-lg-5 offset-md-2 col-md-5">
-					<div class="frequent_item">
-						<h3>We Believe that Interior beauty Lasts Long</h3>
-						<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
-							especially in the workplace. That’s why it’s crucial that as women.</p>
-					</div>
-				</div>
-				<div class="col-lg-5 col-md-5">
-					<div class="frequent_item">
-						<h3>We Believe that Interior beauty Lasts Long</h3>
-						<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
-							especially in the workplace. That’s why it’s crucial that as women.</p>
-					</div>
-				</div>
-				<div class="offset-lg-2 col-lg-5 offset-md-2 col-md-5">
-					<div class="frequent_item">
-						<h3>We Believe that Interior beauty Lasts Long</h3>
-						<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
-							especially in the workplace. That’s why it’s crucial that as women.</p>
-					</div>
-				</div>
-				<div class="col-lg-5 col-md-5">
-					<div class="frequent_item last-child">
-						<h3>We Believe that Interior beauty Lasts Long</h3>
-						<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
-							especially in the workplace. That’s why it’s crucial that as women.</p>
-					</div>
-				</div>
-				<div class="offset-lg-2 col-lg-5 offset-md-2 col-md-5">
-					<div class="frequent_item last-child">
-						<h3>We Believe that Interior beauty Lasts Long</h3>
-						<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
-							especially in the workplace. That’s why it’s crucial that as women.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Frequently Asked Questions Area ================-->
-
-	<!--================ Start Blog Area ================-->
-	<section class="blog_area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="main_title">
-						<h2>Latest Blog Posts</h2>
-						<h1>Latest Blog Posts</h1>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-6">
-					<div class="blog_items">
-						<div class="blog_img_box">
-							<img class="img-fluid" src="img/blog_img1.png" alt="">
-						</div>
-						<div class="blog_content">
-							<a class="title" href="blog.html">Portable Fashion for women</a>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-								dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-							<div class="date">
-								<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>13th Dec </a>
-								<a href="#"><i class="fa fa-heart" aria-hidden="true"></i> 15</a>
-								<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 05</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="blog_items">
-						<div class="blog_img_box">
-							<img class="img-fluid" src="img/blog_img2.png" alt="">
-						</div>
-						<div class="blog_content">
-							<a class="title" href="blog.html">Portable Fashion for women</a>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-								dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-							<div class="date">
-								<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>13th Dec </a>
-								<a href="#"><i class="fa fa-heart" aria-hidden="true"></i> 15</a>
-								<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 05</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 hidden-md">
-					<div class="blog_items">
-						<div class="blog_img_box">
-							<img class="img-fluid" src="img/blog_img3.png" alt="">
-						</div>
-						<div class="blog_content">
-							<a class="title" href="blog.html">Portable Fashion for women</a>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-								dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-							<div class="date">
-								<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>13th Dec </a>
-								<a href="#"><i class="fa fa-heart" aria-hidden="true"></i> 15</a>
-								<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 05</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Blog Area ================-->
-
-	<!--================ Start Newsletter Area ================-->
-	<section class="newsletter_area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<div class="newsletter_inner">
-						<h1>Subscribe Our Newsletter</h1>
-						<p>We won’t send any kind of spam</p>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<aside class="newsletter_widget">
-						<div id="mc_embed_signup">
-							<form target="_blank" method="get" class="subscribe_form relative">
-								<div class="input-group d-flex flex-row">
-									<input name="EMAIL" placeholder="Enter email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email address'"
-									 required="" type="email">
-									<button class="btn primary_btn">Subscribe</button>
-								</div>
-							</form>
-						</div>
-					</aside>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End Newsletter Area ================-->
-
 	<!--================Footer Area =================-->
 	<footer class="footer_area section_gap_top">
 		<div class="container">
-			<div class="row footer_inner">
-				<div class="col-lg-3 col-sm-6">
-					<aside class="f_widget ab_widget">
-						<div class="f_title">
-							<h4>About Farfly</h4>
-						</div>
-						<ul>
-							<li><a href="#"></a>For Business</a></li><a href="#">
-								<li><a href="#"></a>Premium Plans
-							</a></li>
-							<li><a href="#"></a>Reviews</a></li>
-							<li><a href="#"></a>How it Works</a></li>
-							<li><a href="#"></a>Farfly Blog</a></li>
-						</ul>
-					</aside>
-				</div>
-				<div class="col-lg-3 col-sm-6">
-					<aside class="f_widget ab_widget">
-						<div class="f_title">
-							<h4>Company</h4>
-						</div>
-						<ul>
-							<li><a href="#"></a>Product Tour</a></li><a href="#">
-								<li><a href="#"></a>Pricing
-							</a></li>
-							<li><a href="#"></a>Founding Members</a></li>
-							<li><a href="#"></a>Case Studies</a></li>
-							<li><a href="#"></a>Product Updates</a></li>
-						</ul>
-					</aside>
-				</div>
-				<div class="col-lg-3 col-sm-6">
-					<aside class="f_widget ab_widget">
-						<div class="f_title">
-							<h4>Support</h4>
-						</div>
-						<ul>
-							<li><a href="#"></a>Documentation</a></li><a href="#">
-								<li><a href="#"></a>Data Securiry
-							</a></li>
-							<li><a href="#"></a>Site Performance</a></li>
-							<li><a href="#"></a>Action Plan</a></li>
-							<li><a href="#"></a>Resources</a></li>
-						</ul>
-					</aside>
-				</div>
-				<div class="col-lg-3 col-sm-6">
-					<aside class="f_widget ab_widget">
-						<div class="f_title">
-							<h4>Legal</h4>
-						</div>
-						<ul>
-							<li><a href="#"></a>Terms and conditions</a></li><a href="#">
-								<li><a href="#"></a>Privacy Policy
-							</a></li>
-							<li><a href="#"></a>Cookie Information</a></li>
-							<li><a href="#"></a>Opt - Out</a></li>
-						</ul>
-					</aside>
-				</div>
-			</div>
 			<div class="row single-footer-widget">
 				<div class="col-lg-6 col-md-6 col-sm-12">
 					<div class="copy_right_text">
-						<p>
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </p>
+						<p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </p>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12">

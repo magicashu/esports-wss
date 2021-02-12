@@ -30,6 +30,14 @@ Route::get('new-register',function(){
 Route::get('forgot',function(){
     return view('newForgot');
 });
+Route::get('/lul', 'App\Http\Controllers\TournamentController@index');
+Route::get('/table',function(){
+    return view('table');
+});
+
+Route::post('/fifa','App\Http\Controllers\TournamentController@fifa');
+
+Route::post('/create','App\Http\Controllers\TournamentController@create');
 
 Auth::routes();
 
