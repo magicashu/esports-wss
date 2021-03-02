@@ -31,6 +31,7 @@ Route::get('forgot',function(){
     return view('newForgot');
 });
 Route::get('/lul', 'App\Http\Controllers\TournamentController@index');
+//Route::get('/test','App\Http\Controllers\TournamentController@display');
 Route::get('/table',function(){
     return view('table');
 });
@@ -38,6 +39,8 @@ Route::get('/table',function(){
 Route::post('/fifa','App\Http\Controllers\TournamentController@fifa');
 
 Route::post('/create','App\Http\Controllers\TournamentController@create');
+Route::get('/test','App\Http\Controllers\TournamentController@display_valorant');
+Route::post('/test','App\Http\Controllers\TournamentController@display_valorant');
 
 Auth::routes();
 

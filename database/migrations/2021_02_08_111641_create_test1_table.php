@@ -18,7 +18,7 @@ class CreateTest1Table extends Migration
             $table->string('username');
             $table->integer('kills');
             $table->integer('deaths');
-            $table->string('kdratio');
+            $table->float('points');
             $table->timestamps();
         });
     }

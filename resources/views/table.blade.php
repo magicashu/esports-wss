@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+	<title>Admin Dashboard</title>
 
 	<!-- Global stylesheets -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
@@ -410,8 +410,8 @@
 									<th>UserName</th>
 									<th>Kills</th>
 									<th>Deaths </th>
-									<th>K/D ratio</th>
-									<th>Points</th>
+									<!-- <th>K/D ratio</th> -->
+									<!-- <th>Points</th> -->
 									<th class="text-center" style="width: 30px;"><i class="icon-menu-open2"></i></th>
 								</tr>
 							</thead>
@@ -420,11 +420,29 @@
 									@csrf
 									
 									<tr >
-								<div>
-								<tbody class="valorant"></tbody>
-								
-										</tr>
+								<label name="username">
+								<input type="text" name="username" placeholder="Username"id="username" >
+								</input>
+								</label>
 
+								<label name="kills">
+								<input type="number" name="kills" placeholder="Kills"id="kills" >
+								</input>
+								</label>
+
+								<label name="deaths">
+								<input type="number" name="deaths" placeholder="Deaths"id="deaths" >
+								</input>
+								</label>
+
+								<!-- <label name="kdratio">
+								<input type="text" name="kdratio" placeholder="kdratio"id="kdratio">
+								</input>
+								</label> -->
+
+								<span class="badge badge-success">Alive</span>
+
+								</tr>
 							
 											<input type="submit" value="Confirm">
 								</form>
@@ -471,6 +489,39 @@
 						<tbody class="fifa">
 						<form action="/fifa" method="POST">
 						@csrf
+
+						<label name="username">
+								<input type="text" name="username" placeholder="Username"id="username" >
+								</input>
+								</label>
+
+								<label name="teams"><select name="teams" class="teams">
+								<option value="">Select your teams</option>
+								<option value="FCB">FC Barcelona</option>
+								<option value="RMA">Real Madrid</option>
+								<option value="Chelsea">Chelsea</option>
+								<option value="ManU">Man. United</option>
+								</select>
+								</label>
+
+								<label name="goals">
+								<input type="number" name="goals" placeholder="goals"id="goals" >
+								</input>
+								</label>
+
+								<label name="cards">
+								<select name="cards" class="cards">
+								<option class="yes">Yes </option>
+								<option class="no">No </option>
+								</select>
+								</label>
+
+								<label name="fouls">
+								<input type="number" name="fouls" placeholder="fouls"id="fouls" >
+								</input>
+								</label>
+								
+							
 
 						<input type="submit" value="Confirm">
 						</form>
@@ -631,7 +682,7 @@
 									</div>
 								</td>
 							</tr>
-							<tr>
+							<tr>	
 								<td>Lizzee</td>
 								<td><a href="#">Goodlow</a></td>
 								<td>Technical Services Librarian</td>

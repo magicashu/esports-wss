@@ -20,6 +20,7 @@ class CreateFifaTable extends Migration
             $table->integer('goals');
             $table->string('cards');
             $table->integer('fouls');
+            $table->float('points');
             $table->timestamps();
         });
     }
