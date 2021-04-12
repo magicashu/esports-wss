@@ -37,7 +37,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "classmap":"app/controllers/admin",
+            "classmap\\":"app/controllers/admin",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
         }

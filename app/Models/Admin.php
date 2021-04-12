@@ -8,11 +8,11 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Notifiable;
 
-class User extends Authenticatable
+class Admin extends Authenticatable
 {
     use Notifiable;
 
-    protected $guard = 'user';
+    protected $guard = 'admin';
 
     protected $fillable = ['name','email','password'];
 
@@ -21,10 +21,4 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
-
-    public function game(){
-        return $this->hasMany('App/Models/test1' , 'App/Models/fifa');
-    }
-
-
 }

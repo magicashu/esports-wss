@@ -203,6 +203,28 @@
 				
 
 			</div>
+			<table>
+				<thead>
+					<tr>
+						<th data-toggle="true">ID</th>
+						<th data-toggle="true">Username</th>
+						<th data-toggle="true">Kills</th>
+						<th data-toggle="true">Deaths</th>
+						<th data-toggle="true">Points</th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach ($data as $item)
+					<tr>
+						<td>{{$item->id}}</td>
+						<td>{{$item->username}}</td>
+						<td>{{$item->kills}}</td>
+						<td>{{$item->deaths}}</td>
+						<td>{{$item->points}}</td>
+					</tr>
+					@endforeach
+				</tbody>
+			</table>
 		</div>
 	</section>
 	<!--================End Recent Update Area =================-->

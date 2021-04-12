@@ -6,18 +6,18 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Auth;
 
-class LoginController extends Controller
+class AdminLoginController extends Controller
 {
     public function __construct()
     {
-        $this->middleware('guest:user');
+        $this->middleware('guest:admin');
     }
 
 
 
     public function showLoginForm()
     {
-        return view('user.user-login');
+        return view('admin.admin-login');
     }
 
     public function login(Request $request)
@@ -27,8 +27,8 @@ class LoginController extends Controller
             'password' => 'required'
         ]);
 
-        if(Auth::guard('user')->attempt(['email' => $request->email, 'password' => $request->password], $request->remember)) {
-            return redirect()->intended(route('user.index'));
+        if(Auth::guard('admin')->attempt(['email' => $request->email, 'password' => $request->password], $request->remember)) {
+            return redirect()->intended(route('admin.dashboard'));
         }
         //fails
         return redirect()->back()->withInput($request->only('email','remember'));

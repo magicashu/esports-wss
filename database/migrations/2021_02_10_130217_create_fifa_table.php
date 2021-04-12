@@ -15,6 +15,7 @@ class CreateFifaTable extends Migration
     {
         Schema::create('fifa', function (Blueprint $table) {
             $table->id();
+            $table->unsignedInteger('game_id')->default('1');
             $table->string('username');
             $table->string('teams');
             $table->integer('goals');
@@ -22,6 +23,10 @@ class CreateFifaTable extends Migration
             $table->integer('fouls');
             $table->float('points');
             $table->timestamps();
+            // $table->foreign('game_id')
+            // ->references('game_id')
+            // ->on('users')
+            // ->onDelete('cascade');
         });
     }
 

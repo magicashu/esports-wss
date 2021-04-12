@@ -214,37 +214,32 @@
 					<table class="table table-togglable table-hover">
 						<thead>
 							<tr>
+								<th data-toggle="true">Id</th>
 								<th data-toggle="true">Username</th>
 								<th data-hide="phone">Kills</th>
 								<th data-hide="phone,tablet">Deaths</th>
-								<th data-hide="phone,tablet" data-name="Date Of Birth">K/D Ratio</th>
 								<th data-hide="phone" data-ignore="true">Points</th>
-								<th class="text-center" style="width: 30px;"><i class="icon-menu-open2"></i></th>
+								
 							</tr>
 						</thead>
 						<tbody>
+						
 							@foreach ($data as $item)
 							<tr>
+								<td>{{ $item->id }}</td>
 								<td>{{ $item->username }}</td>
 								<td><a href="#">{{ $item->kills}}</a></td>
 								<td>{{$item->deaths}}</td>
-								<td>22 Jun 1972</td>
-								<td><span class="badge badge-success">Active</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
+								
+								<td>
+									<form action="/dude" method="POST">
+										@csrf
+										<input type="hidden" name="id" value="{{ $item->id }}">
+										<input type="number" name="points" id="points" value="{{$item->points}}" >
+									</td>
+							
+								<td><span class="badge badge-success"> <button style="border: none; background-color:lightgreen" type="submit"> Active </button> </span></td>
+							</form>
 							</tr>
 							@endforeach
 							
@@ -256,7 +251,7 @@
 				</div>
 				<!-- /Valorant -->
 
-        	<!-- Call of Duty -->
+        	{{-- <!-- Call of Duty -->
 				<div class="card">
 					<div class="card-header header-elements-inline">
 						<h5 class="card-title">Call of Duty</h5>
@@ -333,11 +328,11 @@
 						
 						</tbody>
 					</table>
-				</div>
+				</div>--}}
 				<!-- /Call of Duty -->
 
         	<!-- Fifa -->
-				<div class="card">
+			{{-- <div class="card"> 
 					<div class="card-header header-elements-inline">
 						<h5 class="card-title">Fifa</h5>
 						<div class="header-elements">
@@ -365,28 +360,26 @@
 							</tr>
 						</thead>
 						<tbody>
+							@foreach ($data_f as $item)
 							<tr>
-								<td>Marth</td>
-								<td><a href="#">Enright</a></td>
-								<td>Traffic Court Referee</td>
-								<td>22 Jun 1972</td>
-								<td><span class="badge badge-success">Active</span></td>
-								<td class="text-center">
-									<div class="list-icons">
-										<div class="dropdown">
-											<a href="#" class="list-icons-item" data-toggle="dropdown">
-												<i class="icon-menu9"></i>
-											</a>
-
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-file-pdf"></i> Export to .pdf</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-excel"></i> Export to .csv</a>
-												<a href="#" class="dropdown-item"><i class="icon-file-word"></i> Export to .doc</a>
-											</div>
-										</div>
-									</div>
-								</td>
+								<td>{{ $item->id }}</td>
+								<td>{{ $item->username }}</td>
+								<td>{{ $item->teams }}</td>
+								<td><a href="#">{{ $item->goals}}</a></td>
+								<td>{{$item->cards}}</td>
+								<td>{{ $item->fouls }}</td>
+			
+								<td>
+									<form action="/dude" method="POST">
+										@csrf
+										<input type="hidden" name="id" value="{{ $item->id }}">
+										<input type="number" name="points" id="points" value="{{$item->points}}" >
+									</td>
+							
+								<td><span class="badge badge-success"> <button style="border: none; background-color:lightgreen" type="submit"> Active </button> </span></td>
+							</form>
 							</tr>
+							@endforeach
 							<tr>
 						
 						</tbody>
@@ -423,7 +416,7 @@
 
 			<!-- /footer -->
 
-		</div>
+		</div> --}}
 		<!-- /main content -->
 
 	</div>

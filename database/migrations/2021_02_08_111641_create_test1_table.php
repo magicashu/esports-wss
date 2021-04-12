@@ -15,11 +15,13 @@ class CreateTest1Table extends Migration
     {
         Schema::create('test1', function (Blueprint $table) {
             $table->id();
-            $table->string('username');
+            $table->unsignedInteger('game_id')->default("1");
+            $table->string('username')->default(NULL);
             $table->integer('kills');
             $table->integer('deaths');
-            $table->float('points');
+            $table->json('points');
             $table->timestamps();
+            // $table->foreign('game_id')->references('game_id')->on('users')->onDelete('cascade');
         });
     }
 

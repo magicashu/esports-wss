@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Auth;
 
-class LoginController extends Controller
+class UserLoginController extends Controller
 {
     public function __construct()
     {
@@ -34,4 +34,5 @@ class LoginController extends Controller
         return redirect()->back()->withInput($request->only('email','remember'));
        
     }
+
 }
